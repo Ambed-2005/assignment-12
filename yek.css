@@ -1,0 +1,131 @@
+body{
+    background:#709780;
+}
+.navigation {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:0px;
+}
+.navigation .section1{
+    background-color: rgb(28,98, 59);
+    display: flex;
+    margin-right: 10px;
+    border-radius: 100px;
+   
+}
+.navigation nav{
+    display: flex;
+    
+}
+.navigation nav ul{
+    list-style: none;
+}
+.navigation nav ul li ul li {
+
+    padding:10px
+}
+.navigation nav ul li a{
+    color:rgb(238, 216, 59);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px; 
+}
+.navigation nav ul li ul li{
+    display:none;
+}
+.navigation nav ul li:hover ul li{
+    display:block;
+    
+}
+.navigation nav ul li a:hover{
+    color: rgb(220, 243, 171);
+    font-size: 23px;
+    
+}
+.navigation .home{
+    background-color: rgb(28,98, 59);
+} 
+.title {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:30px;
+    text-align: center;
+    color:  rgb(0, 48, 22);
+    
+}
+.seireng {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:30px;
+    text-align: center;
+
+}
+.seireng .machu1{
+    background-color: rgb(28,98, 59);
+    border-radius: 100px;
+    color:rgb(238, 216, 59);
+}
+.seireng .machu2{
+    color:  rgb(20, 74, 44);
+    background-color: rgb(135, 181, 154);
+    
+}
+.seireng .machu3{
+    color:  rgb(20, 74, 44);
+    background-color: rgb(135, 181, 154);
+   
+}
+
+.wareng {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:30px;
+    text-align: center;
+    
+}
+.wareng .machu1{
+    background-color: rgb(28,98, 59);
+    color:rgb(238, 216, 59);
+    border-radius: 100px;
+   
+}
+.wareng .machu2{
+    color:  rgb(20, 74, 44);
+    background-color: rgb(135, 181, 154);
+    text-align: left;   
+}
+.wareng .machu3{
+    color:  rgb(0, 48, 22);
+}
+.wareng .machu4{
+    color:  rgb(20, 74, 44);
+    background-color: rgb(135, 181, 154);
+    text-align: left;
+    border-radius:10px;
+}
+.footer {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:30px;
+    text-align: center; 
+}
+.footer .machu1{
+    color:  rgb(0, 48, 22);
+}
+.footer div{
+    text-align: left;
+}
+.footer2{
+    font-size:30px;
+    text-align: center; 
+    
+}
+.footer2 .machu1{
+    color:  rgb(0, 48, 22);
+}
+.footer2 div{
+    text-align: left;
+}
+
+
