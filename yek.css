@@ -1,6 +1,11 @@
 body{
     background:#709780;
 }
+@font-face {
+    font-family: 'epaomayek';
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:0px; ;
+}
 .navigation {
     font-family:'epaomayek' ;
     src: url('EPAOMAYEK.TTF')format('truetype');
